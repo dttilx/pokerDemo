@@ -8,5 +8,4 @@
 
 
 实现功能截图如下：
-<img width="500" height="978" alt="990362e217c3cf8214a2585d0d178bfc" src="https://github.com/user-attachments/assets/903a0f76-8c83-4c80-a502-eb2756c084ac" /><img width="500" height="978" alt="990362e217c3cf8214a2585d0d178bfc" src="https://github.com/user-attachments/assets/da8b11a8-2086-484d-bc9d-b3e75b64145d" />
-
+<img width="500" height="978" alt="990362e217c3cf8214a2585d0d178bfc" src="https://github.com/user-attachments/assets/903a0f76-8c83-4c80-a502-eb2756c084ac" />
