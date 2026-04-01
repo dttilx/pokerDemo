@@ -1,0 +1,220 @@
+# ===========================================
+# Cocos2d-x 项目专用 .gitignore
+# 放在项目根目录（与 Classes/ 同级）
+# ===========================================
+
+# ===========================================
+# 1. COCOS2D-X 引擎源码（不要上传）
+# ===========================================
+cocos2d/
+
+# ===========================================
+# 2. proj.win32 编译文件（关键！）
+# ===========================================
+# 编译输出目录
+proj.win32/[Dd]ebug*/
+proj.win32/[Rr]elease*/
+proj.win32/x64/
+proj.win32/x86/
+proj.win32/[Bb]in/
+proj.win32/[Oo]bj/
+
+# 编译生成的可执行文件和库
+proj.win32/*.exe
+proj.win32/*.dll
+proj.win32/*.lib
+proj.win32/*.ilk
+proj.win32/*.pdb
+proj.win32/*.obj
+proj.win32/*.idb
+proj.win32/*.ipdb
+proj.win32/*.iobj
+proj.win32/*.pch
+proj.win32/*.cache
+
+# Visual Studio 临时文件
+proj.win32/*.tlog
+proj.win32/*.log
+proj.win32/*.lastbuildstate
+proj.win32/*.unsuccessfulbuild
+proj.win32/*.vc.db
+proj.win32/.vs/
+proj.win32/ipch/
+
+# 但保留这些工程文件（会上传）：
+!proj.win32/*.sln
+!proj.win32/*.vcxproj
+!proj.win32/*.vcxproj.filters
+!proj.win32/*.props
+!proj.win32/*.xml
+!proj.win32/*.user
+!proj.win32/*.config
+
+# ===========================================
+# 3. Visual Studio IDE 文件
+# ===========================================
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.opendb
+*.opensdf
+*.sdf
+*.ncb
+*.ipch
+*.aps
+*.db
+
+# ===========================================
+# 4. 其他平台工程（按需忽略）
+# ===========================================
+# 如果你有但不想上传
+proj.android/
+proj.ios/
+proj.ios_mac/
+proj.linux/
+proj.mac/
+
+# ===========================================
+# 5. 编译中间文件
+# ===========================================
+# 通用编译输出
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Bb]uild/
+[Oo]ut/
+x64/
+x86/
+
+# 编译文件
+*.cache
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# 可执行文件和库
+*.exe
+*.dll
+*.so
+*.dylib
+*.bundle
+*.app
+*.lib
+*.a
+
+# ===========================================
+# 6. 资源文件处理临时文件
+# ===========================================
+# 图片/音频处理文件
+Resources/*.psd
+Resources/*.ai
+Resources/*.eps
+Resources/Thumbs.db
+Resources/Desktop.ini
+Resources/~$*
+
+# 版本控制文件
+Resources/*.orig
+Resources/*.rej
+
+# ===========================================
+# 7. Cocos Creator 相关
+# ===========================================
+# Cocos Creator 生成文件
+assets/
+library/
+local/
+temp/
+settings/
+build/
+.cocos/
+
+# Cocos 配置文件
+.cocos-project.json.user
+
+# ===========================================
+# 8. 系统文件
+# ===========================================
+# Windows
+[Dd]esktop.ini
+Thumbs.db
+ehthumbs.db
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+*.ds_store
+
+# Linux
+*~
+
+# 回收站
+$RECYCLE.BIN/
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+
+# ===========================================
+# 9. 其他开发工具
+# ===========================================
+# CLion
+cmake-build-*/
+
+# Visual Studio Code
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vscode/*
+
+# 项目特定
+.project
+.classpath
+.settings/
+
+# ===========================================
+# 10. 项目配置文件（按需使用）
+# ===========================================
+# 如果你有本地配置文件，取消注释
+# config.local.json
+# settings.local.ini
+# *.local
+# *.secret
